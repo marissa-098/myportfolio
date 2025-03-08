@@ -29,6 +29,22 @@
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
       <!-- font awesome css -->
       <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+          .contact-info {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+        .contact-info i {
+            margin-right: 10px;
+            color: #555;
+        }
+      </style>
    </head>
    <body>
       <!-- header section start -->
@@ -363,9 +379,18 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="mail_section_1">
-                        <input type="text" class="mail_text" placeholder="Marissa Manrique" name="Your Name">
-                        <input type="text" class="mail_text" placeholder="marissamanrique098@gmail.com" name="Your Email">
-                        <input type="text" class="mail_text" placeholder="+63 929 260 3298" name="phone">
+                        <div class="contact-info">
+                             <i class="fas fa-user"></i>
+                             Marissa Manrique
+                         </div>
+                         <div class="contact-info">
+                             <i class="fas fa-envelope"></i>
+                             marissamanrique098@gmail.com
+                         </div>
+                         <div class="contact-info">
+                             <i class="fas fa-phone"></i>
+                             +63 929 260 3298
+                         </div>
                      </div>
                   </div>
                </div>
